@@ -1243,7 +1243,7 @@ body {
   .accomplishments .container {
     width: calc((100%/1) - 15%);
     margin-bottom: 4rem;
-/*     border-bottom: 1px solid brown; */
+    border-bottom: 1px solid brown;
   }
   .accomplishments .container .words p {
     font-size: 1.9rem;
