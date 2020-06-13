@@ -1,0 +1,140 @@
+/* Below are styles for the top menu in the first box */
+
+.topnavcontainer {
+    background-color: rgb(255, 153, 94);
+}
+
+.topnav img {
+    height: 11rem;
+    width: 12rem;
+}
+
+.topnav { 
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+    
+
+.topnav  ul {
+    list-style: none;
+    display: flex;
+    margin-bottom:-1rem;
+    margin-right:2rem;
+}
+
+.topnav .desk a{
+    border-bottom:1px solid black;
+    padding:0.5rem;
+}
+
+.topnav .desk a {
+    text-decoration: none;
+    font-size:1.7rem;
+    color:black;
+    margin-left: 1.7rem;
+    margin-bottom:-1rem;  
+}
+
+.topnav ul a:hover {
+    background-color:#F0D000;
+}
+
+/* Drop Down */
+
+.topnav .phone {
+    font-size: 2.5rem;
+    display: none;
+    
+}
+
+.phone li {
+    position: relative;
+}
+
+.phone span {
+    font-size: 15px;
+    padding:0.5rem;
+    color: yellow;
+}
+
+.phone li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.phone li:hover ul.sub-menu,
+.phone li:focus-within ul.sub-menu {
+    display: block;
+}
+
+.phone ul.sub-menu {
+    background: #23322B;
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 125%;
+    left: -1.1rem;
+    right:0rem;
+}
+
+.phone ul.sub-menu li a {
+    color: white;
+    padding-bottom: 1rem;
+    padding-top:1rem;
+}
+
+.phone ul.sub-menu li:hover,
+.phone ul.sub-menu li:focus-within {
+    border-bottom:2px solid #F0D000;
+}
+
+
+// media queries
+
+@media (max-width: 1024px) { 
+    
+    .topnav {
+        justify-content: space-around
+    }
+
+}
+
+@media (max-width: 834px) {
+    
+
+    .topnav .desk{
+        display: none;
+    }
+
+    .topnav ul a:hover {
+        background-color:transparent;
+    }
+    
+    .topnav .phone{
+        display:block;
+        border:1px solid black;
+        padding:1rem;
+    }
+    
+    .topnav img{
+        margin-left:1rem;
+    }
+    
+    .topnav {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+

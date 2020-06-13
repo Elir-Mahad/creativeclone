@@ -1,0 +1,128 @@
+/* Below are the Styles for the header for landing */
+
+.headland {
+    min-width: 100%;
+    height: 63rem;
+    background-image:url(/Assets/landingheader.jpg);
+    background-color:grey;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.headland .headertext,
+.headabout .headtext,
+.headourpartner .headtext,
+.headteam .headtext,
+.headhelpus .headtext {
+    letter-spacing: -0.1rem;
+}
+
+.headland h1,
+.headabout h1,
+.headourpartner h1,
+.headteam h1,
+.headhelpus h1{
+    text-align: center;
+    background-color:#F0D000;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    font-size: 4rem;
+    display: block;
+    margin:auto;
+    width:40rem;
+    font-weight: 100;
+    margin-right:3rem;
+}
+
+// header for about us
+
+.headabout {
+    min-width: 100%;
+    height: 60rem;
+    background-size: cover;
+    background-image: url(/Assets/headerabout.jpg); 
+}
+
+// header for our partners
+
+.headourpartner{
+    min-width: 100%;
+    height: 60rem;
+    background-size: cover;
+    background-image: url(/Assets/headerourpartner.jpg);
+}
+
+// header for team
+
+.headteam {
+    min-width: 100%;
+    height: 60rem;
+    background-size: cover;
+    background-image: url(/Assets/headerconf.jpg);
+}
+
+// header for join us
+
+.headhelpus {
+    min-width: 100%;
+    height: 60rem;
+    background-size: cover;
+    background-image: url(/Assets/headerhelp.jpg);
+}
+
+
+// all media queries for all headers
+
+@media (max-width: 1024px) { 
+
+    // landing
+
+    .headertext h1{
+        margin-right:5rem
+    }
+
+}
+
+@media (max-width: 834px) {
+
+    // landing
+
+    .headertext h1{
+        font-size:3rem;
+        width: 30%;
+        padding:1rem;
+    }
+
+}
+
+@media (max-width: 600px) { 
+
+    .headertext h1{
+        font-size:3rem;
+        width: 100%;
+        padding:0rem;
+        display: flex;
+        position:relative;
+        top:53rem;
+        left:0rem;
+    }
+    
+}
+
+@media (max-width: 384px) {
+
+    .headertext h1{
+        font-size:2.5rem;
+        top:53rem;
+    }
+
+}
+
+@media (max-width: 384px) {
+
+    .headertext h1{
+        top:55rem;
+    }
+
+}

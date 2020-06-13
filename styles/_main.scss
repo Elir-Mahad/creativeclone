@@ -1,0 +1,944 @@
+// landing page
+
+/* Our strategy */
+
+.ourstrategy {
+    background:white;
+    padding:5rem;
+}
+
+.ourstrategy h2 {
+    text-align:center;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    line-height: 34.8167px;
+    padding-bottom: 1rem;
+    padding-top:1rem;
+}
+
+.ourstrategy .container h2 {
+    letter-spacing: normal;
+    line-height: 26.9167px;
+    text-align: center;
+    font-size: 25.4px;
+    margin-bottom:-1rem;
+}
+
+.ourstrategy .container p {
+    font-family: 'Roboto', sans-serif;
+    font-size:19.5px;
+    line-height: 30px;
+    padding-top:0rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    text-align: center;
+}
+
+/* Below are the specific styles for content within the containers */
+
+.ourstrategy .flex-container {
+	display: flex;
+	flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.ourstrategy .container {
+    box-shadow: 0px 0px 10px lightgrey;
+	width: calc((100%/3) - 3%);  
+	margin: 1%;
+    height: 100%;
+}
+
+.ourstrategy .container img {
+    padding-top:3rem;
+    width: 12rem;
+    display: block;
+    margin:auto;
+}
+
+// about us
+
+/* our philosophy */
+
+.ourphilosophy {
+    padding: 5rem;
+    text-align: center;
+    border-bottom:1px dotted black;
+}
+
+.ourphilosophy h2 {
+    text-align:center;
+    margin-bottom:2rem;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: -0.8px;
+    line-height: 34.8167px;
+}
+
+.ourphilosophy p{
+    font-family: 'Roboto', sans-serif;
+    font-size:19.5px;
+    line-height: 30px;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin:auto;
+}
+
+/* Below styles for accomplishments */
+
+.accomplishments {
+    padding: 5rem;
+}
+
+.accomplishments h2 {
+    text-align:center;
+    margin-bottom:2rem;
+    margin-top:1rem;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: -0.8px;
+    line-height: 34.8167px;
+}
+
+.accomplishments .container img {
+    width: 23rem;
+    display:block;
+    margin:auto;
+}
+
+.accomplishments .container .words {
+    background-color: white;
+    text-align: center;
+    height: 25rem;
+    padding-top: 2rem;
+}
+
+.accomplishments .container .words h2 {
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    font-size: 25.4px;
+    font-weight: 100;
+    letter-spacing: -0.7px;
+    text-align: center;
+}
+
+.accomplishments .container p {
+    text-align: center;
+    font-size:19.5px;
+    line-height: 30px;
+}
+
+/* Styles for containers in accomplishment sections */
+
+.accomplishments .flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.accomplishments .container {
+    height: 100%;
+	position: relative;
+	width: calc((100%/4) - 2%);  
+	margin:1%;
+}
+
+// partners
+
+.description {
+    padding: 3rem;
+}
+
+.description h1 {
+    text-align:center;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    line-height: 34.8167px;
+    padding: 1.5rem;
+    margin-bottom:-1rem;
+}
+
+.description p {
+    font-family: 'Roboto', sans-serif;
+    font-size:19.5px;
+    line-height: 30px;
+}
+
+.threeboxes {
+    background-color:#FFFFFF;
+    font-family: "Roboto", hind;
+}
+
+.threeboxes h2 {
+    font-size: 25.4px;
+    margin-bottom:-1rem;
+}
+
+.threeboxes p {
+    font-family: 'Roboto', sans-serif;
+    font-size:19.5px;
+    line-height: 30px;
+}
+
+
+/* Below are the specific styles for content within the containers for the three boxes inthe above section */
+
+.threeboxes .flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.threeboxes .container {
+    padding: 2rem;
+    box-shadow: 0px 0px 10px lightgrey; /* the 5px creates the shadow effect for all sides */
+	position: relative;
+	width: calc((100%/3) - 2%);  
+	margin: 1%;
+}
+
+.threeboxes .container .words {
+    background-color: white;
+    padding: 2rem;
+    height: 100%;
+}
+
+/* Below are the styles for the image and text-box on the left 'diverse talent pipeline' */
+
+.imageandtext .wrapper {
+    background-color:#FFFFFF;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:4rem;
+    padding-bottom:2rem;
+}
+
+.imageandtext img {
+    width:60rem;
+} 
+
+.imageandtext .words {
+    margin-left:4rem;
+}
+
+.imageandtext h2 {
+    font-size: 25.4px;
+    margin-bottom:-1rem;
+    margin-left:2rem;
+}
+
+.imageandtext p {
+    font-family: 'Roboto', sans-serif;
+    font-size:19.5px;
+    line-height: 32.5px;
+    padding:2rem;
+}
+
+/* Testimonials general styles belows */
+
+.testimonials div {
+    padding-bottom:1rem;
+}
+
+.testimonials h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    line-height: 34.8167px;
+    padding-bottom: 4rem;
+
+}
+
+.firsttestimonial,
+.secondtestimonial {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials .words{
+    width: 50%;
+}
+
+.firsttestimonial .words p,
+.secondtestimonial .words p{
+    font-family: 'Roboto', sans-serif;
+    font-size:19.5px;
+    line-height: 32.5px;
+    padding:2rem;
+}
+
+.testimonials .image h3 {
+    font-size:16px;
+}
+
+.testimonials .image p {
+    font-family: "Roboto Slab", hind;
+    font-size:13.6px;
+}
+
+/* First Testimonials styles belows */
+
+.firsttestimonial .image{
+    margin-left:5rem;
+}
+
+.firsttestimonial img {
+    width: 20rem;
+    height:30rem;
+    border-radius:3rem;
+}
+
+/* Second testimonial below */
+
+.secondtestimonial img {
+    width: 20rem;
+    height:25rem;
+    border-radius:3rem;
+}
+
+/* Forms */
+
+.chat {
+    padding-bottom:2rem;
+}
+
+.chat h2 {
+    font-size:34.8167px;
+    text-align: center;
+}
+
+.chat p{
+    font-family: 'Roboto', sans-serif;
+    font-size:19.5px;
+    line-height: 32.5px;
+    text-align: center;
+}
+
+.chat .formandimage{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.chat .formandimage img {
+    width:30rem;
+    height:50rem;
+    border-radius:3rem;
+    border:1px solid black;
+}
+
+.chat form {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat label {
+    font-size:2rem;
+}
+
+.chat input {
+    background-color: rgb(245, 248, 250);
+    border:1.5px solid rgb(203, 214, 226);
+    border-radius: 2rem;
+    width:53rem;
+    height:4rem;
+}
+
+.chat .forms select {
+    background-color: rgb(245, 248, 250);
+    color: rgb(51, 71, 91);
+    border:1.5px solid rgb(203, 214, 226);
+    width:53rem;
+    height:4rem;
+    padding:0.9rem;
+    font-size:18px; 
+}
+
+// team
+
+.crew .wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.crew {
+    background-color:#FFFFFF;
+    padding-top: 3rem;
+}
+
+.crew h2 {
+    text-align:center;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    line-height: 34.8167px;
+    padding-top:2rem;
+    padding-bottom: 5rem;
+}
+
+.topbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topbox img{
+    height:15rem;
+}
+
+.topbox .comment {
+    border-left: 1px solid green;
+    font-family: 'Roboto', sans-serif;
+    font-size:19.5px;
+    line-height: 30px;
+    padding:2rem;
+    width: 43%;
+}
+
+
+.gallery h3 {
+    font-size:2.3rem;
+    font-weight: lighter;
+    padding-top: 1rem;
+}
+
+.gallery .container h3:before{
+    color:brown;
+    font-size:4rem;
+    content:"∾";      
+}
+
+.gallery .container h3:after{
+    color:brown;
+    font-size:4rem;
+    content:"∾";      
+}
+
+.gallery p {
+    font-size:1.7rem;
+    padding-bottom:1rem;
+    color:brown; 
+    padding:1rem;
+    padding-top:0rem;   
+}
+
+
+/* Below are the specific styles for content within the containers */
+
+.gallery .flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery .container {
+	position: relative;
+	width: calc((100%/3) - 2%);  
+	margin-left:1%;
+    padding:2rem;
+}
+
+.gallery .container .headshot {
+    width: 20rem;
+    height:25rem;
+    border-radius:4rem;
+    object-fit: cover;
+}
+
+
+.gallery .container .words {
+    background-color: white;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+// join us
+
+
+.allforms .wrapper {
+    padding-left:7.5rem;
+}
+
+.allforms h2 {
+    font-family: "Roboto", hind;
+    font-size: 34.8167px;
+    text-align: center;
+    padding: 4rem;
+}
+
+
+.firstname,
+.lastname,
+.mail,
+.companyname,
+.job,
+.number,
+.countryregion {
+    padding-bottom: 1rem;
+    padding-right:9rem; 
+}
+
+.allforms input {
+    background-color: rgb(245, 248, 250);
+    border:1.5px solid rgb(203, 214, 226);
+    border-radius: 2rem;
+    display: block;
+    width: 102%;
+    height:4.3rem;
+}
+
+.allforms label{
+    color: rgb(51, 71, 91);
+    font-family: arial, helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.allforms .dropdowns {
+    padding-top: 1rem;
+    padding-bottom:3rem;
+}
+
+.allforms .dropdowns div {
+    padding-bottom: 1rem;
+}
+
+.allforms .dropdowns select {
+    background-color: rgb(245, 248, 250);
+    color: rgb(51, 71, 91);
+    border:1.5px solid rgb(203, 214, 226);
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    width:92.5%;
+}
+
+.allforms .dropdowns button {
+    background-color:rgb(255, 153, 94);;
+    color:black;
+    height:3.5rem;
+    width:9rem;
+    font-size:1.1rem;
+    font-weight: bolder;
+    border-radius: 1rem;
+    border:transparent;
+    letter-spacing: 0.12rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top:3rem;
+    margin-bottom:4rem;
+}
+
+.allforms .dropdown {
+    display: flex;
+}
+
+// all media queries for all pages
+
+@media (max-width: 1024px) { 
+
+    // landing
+    
+    .ourstrategy .container {
+        width: calc((100%/3) - 5%);  
+    }
+    
+    // about us 
+
+    .accomplishments .container {
+        width: calc((100%/2) - 2%); 
+        padding: 1.5rem;
+    }
+
+    .accomplishments .container div img {
+        width: 90%;
+        display:block;
+        margin:auto;
+    }
+
+    .accomplishments .container .words h2{
+        margin-bottom:-2rem;
+        border:none;
+    }
+    
+    .accomplishments .container .words h2:before{
+        color:brown;
+        font-size:4rem;
+        content:"∾";      
+    }
+    
+    .accomplishments .container .words h2:after{
+        color:brown;
+        font-size:4rem;
+        content:"∾";      
+    }
+
+    .accomplishments .container h2 {
+        font-size: 25px;
+    }
+
+    .accomplishments .container img {
+        width: 20rem;
+    }
+
+    // partners
+
+    .imageandtext {
+        padding: 1rem;
+    }
+    
+    .imageandtext img{
+        width: 45rem;
+    }
+    
+    .testimonials {
+        padding: 2rem;
+    }
+    
+    .chat {
+        padding: 2rem;
+    }
+    
+    .formandimage img {
+        padding-left:1rem;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 834px) {
+
+    // landing
+    
+    .ourstrategy {
+        margin-top:-3rem;
+    }
+    
+    .ourstrategy .container  {
+        width: calc((100%/2) - 2%);         
+    }
+    
+    // about us
+    
+    .accomplishments h2 {
+    margin-bottom:3rem;
+    }
+    
+    .accomplishments .container .words {
+        height: 100%;
+        padding-top: 0rem;  
+    }
+    
+    .accomplishments .container .words p {
+        font-size:1.9rem;
+        
+    }
+
+    // partners
+
+    .threeboxes .container {
+        width: calc((100%/1) - 3%);
+        padding: 0;
+        margin: 1;
+    }
+    
+    .imageandtext div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imageandtext .words h2{
+        display:none;
+    }
+    
+    .imageandtext .words p{
+        margin:0rem;
+        margin-top:3rem;
+        padding:0rem; 
+    }
+    
+    .imageandtext img {
+        width:80%;
+    }
+    
+    .firsttestimonial .image {
+        margin-left:0rem;
+    }
+    
+    .formandimage img {
+        display:none;
+    }
+    
+    .formandimage{
+        width:80%;
+        display: block;
+        margin:auto;
+    }
+    
+    .formandimage form input {
+        width: 100%;
+    }
+
+    // team
+
+    .gallery {
+        padding-left:4rem;
+    }
+    
+    .gallery .container {
+        width: calc((95%/2) - 2%);  
+    }
+    
+    .gallery .container .headshot {
+        display: block;
+        margin:auto;
+    }
+    
+}
+
+ /* Landscape phone to portrait tablet - below 768 */
+@media (max-width: 600px) { 
+    
+    // landing
+    
+    .ourstrategy .container  {
+        width: calc((80%/1) - 2%); 
+        margin-bottom:2rem;        
+    }
+
+    // about us
+
+    .ourphilosophy {
+        padding:0rem;
+        padding-bottom:4rem;
+        padding-top:2rem;
+        margin-top:3rem;
+    }
+
+    .ourphilosophy p {
+        font-size:1.8rem;
+    }
+    
+    .accomplishments section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .accomplishments .container {
+        width: calc((100%/1) - 15%); 
+        margin-bottom:4rem;
+        border-bottom:1px solid brown;
+    }
+    
+    .accomplishments .container .words p {
+        font-size:1.9rem;
+    }
+
+    // partners
+
+    .firsttestimonial,
+    .secondtestimonial {
+    flex-direction: column;
+    padding-left:2rem;
+    padding-right:2rem;
+    }
+    
+    .firsttestimonial .words,
+    .secondtestimonial .words{
+        width: 80%;   
+    }
+    
+    .firsttestimonial .words p,
+    .secondtestimonial .words p{
+        padding:0rem;  
+        margin:0rem;
+    }
+    
+    .firsttestimonial .image{
+        margin:0rem;
+        align-self:start;
+        text-align: center;
+    }
+    
+    .secondtestimonial .image{
+        align-self:end;
+        text-align: center;
+    }
+    
+    .secondtestimonial .words{
+    align-self:end;
+    margin-top:-2.5rem;
+    }
+    
+    .secondtestimonial {
+        margin-top:-25rem;
+    }
+
+    .chat .forms .dropdown {
+        width: 100%;
+    }
+
+    // team
+
+    .crew h2{
+        padding:0rem;
+        padding-bottom:2rem;
+        padding-top:2rem;
+    }
+    
+    .topbox img {
+        display: none;               
+    }
+    
+    .topbox .comment{
+        padding: 0rem;
+        margin:0rem;
+        text-align: center;
+        width: 90%;
+        border:none;
+        font-size:2rem;
+        margin-bottom:1rem;
+    }
+    
+    .gallery .flex-container {
+        margin:-2rem;
+        width: 100%;
+    }
+    
+    .gallery .container {
+        width: calc((100%/1) - 2%);
+    }
+    
+    .gallery .container .image img{
+        width:30rem;
+        height: 35rem;
+        display: block;
+        margin:auto;
+    }
+    
+    .gallery .container h3{
+        font-size:3rem;
+    }
+
+    .gallery .container p{
+        font-size: 2.5rem;
+    }
+
+    // join us 
+
+    .allforms input{
+        border-radius: 0rem;
+    }
+
+    .allforms .dropdowns select{
+        width:70%;
+    }
+    
+}
+
+@media (max-width: 414px) {
+    
+    // about us
+
+    .accomplishments h2 {
+        font-size:4rem;
+        margin:-3rem;
+        padding-top:1rem;
+        margin-bottom:3rem;
+    }
+    
+    .accomplishments .container {
+        width: calc((100%/1) - 2%); 
+    }
+    
+    .accomplishments .container .words h2{
+        font-size:3rem;
+        margin:0rem;
+        margin-bottom:-2rem;
+        padding-top:1rem;   
+    }
+
+    // partners
+    
+    .imageandtext,
+    .testimonials{
+        padding-bottom:0rem;
+    }
+    
+    .imageandtext .words {
+        margin:1rem;
+        text-align: center;
+    }
+    
+    .secondtestimonial {
+        margin-top:0rem;
+    }
+    
+    .firsttestimonial .words,
+    .secondtestimonial .words{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 384px) {
+
+    
+    // about us
+
+    .accomplishments h2{
+        font-size:3.5rem;
+    }
+    
+    .accomplishments .container {
+        margin:0rem;
+        padding:0rem;
+        margin-bottom:2rem;
+        margin-top:2rem;
+    }
+    
+    .accomplishments .container .image img{
+        margin:0rem;
+        padding:0rem;
+        width:100%;
+    }
+
+    // team
+
+    .gallery .container .image img{
+        width:20rem;
+        height: 30rem;
+    }
+    
+    .gallery .container h3{
+        font-size:2.5rem;
+    }
+
+    .gallery .container p{
+        font-size: 2rem;
+    }
+    
+}
+
+@media (max-width: 320px) {
+
+    // about us
+
+    .accomplishments .words{
+        margin:-1.5rem;
+    }
+    
+    .accomplishments .container .image img{
+        margin-bottom:2rem;
+    }
+    
+}

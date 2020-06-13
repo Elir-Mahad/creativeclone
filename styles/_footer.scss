@@ -1,0 +1,47 @@
+/* Footer styles */
+
+footer {
+    background-color: rgb(255, 153, 94);
+    padding: 1rem;
+}
+
+footer p {
+    font-size:1.6rem;
+    text-align: center;
+}
+
+footer p span {
+    background-color:#F0D000;
+    border-radius: 1rem;
+    border:1px dotted black;
+    padding:1rem;
+}
+
+// all media queries
+
+@media (max-width: 500px) { 
+    
+    footer p{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    footer p span{
+        width:60%;
+        display:block;
+        margin:auto;
+    }
+}
+
+@media (max-width: 384px) { 
+
+    footer p span{
+        padding:0.5rem;
+        width: 80%;
+    }
+
+}
+
+
+
+
