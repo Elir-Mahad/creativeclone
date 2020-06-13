@@ -391,7 +391,7 @@ body {
 .headland {
   min-width: 100%;
   height: 63rem;
-  background-image: url(/Assets/landingheader.jpg);
+  background-image: url(./Assets/landingheader.jpg);
   background-color: grey;
   background-blend-mode: multiply;
   background-size: cover;
@@ -427,28 +427,28 @@ body {
   min-width: 100%;
   height: 60rem;
   background-size: cover;
-  background-image: url(/Assets/headerabout.jpg);
+  background-image: url(./Assets/headerabout.jpg);
 }
 
 .headourpartner {
   min-width: 100%;
   height: 60rem;
   background-size: cover;
-  background-image: url(/Assets/headerourpartner.jpg);
+  background-image: url(./Assets/headerourpartner.jpg);
 }
 
 .headteam {
   min-width: 100%;
   height: 60rem;
   background-size: cover;
-  background-image: url(/Assets/headerconf.jpg);
+  background-image: url(./Assets/headerconf.jpg);
 }
 
 .headhelpus {
   min-width: 100%;
   height: 60rem;
   background-size: cover;
-  background-image: url(/Assets/headerhelp.jpg);
+  background-image: url(./Assets/headerhelp.jpg);
 }
 
 @media (max-width: 1024px) {
