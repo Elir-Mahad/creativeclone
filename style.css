@@ -426,22 +426,28 @@ body {
 .headabout {
   min-width: 100%;
   height: 60rem;
-  background-size: cover;
   background-image: url(./Assets/headerabout.jpg);
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .headourpartner {
   min-width: 100%;
   height: 60rem;
-  background-size: cover;
   background-image: url(./Assets/headerourpartner.jpg);
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .headteam {
   min-width: 100%;
   height: 60rem;
-  background-size: cover;
   background-image: url(./Assets/headerconf.jpg);
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .headhelpus {
@@ -458,6 +464,13 @@ body {
 }
 
 @media (max-width: 834px) {
+  .headland,
+  .headabout,
+  .headourpartner,
+  .headteam,
+  .headhelpus {
+    height: 55rem;
+  }
   .headertext h1 {
     font-size: 3rem;
     width: 30%;
@@ -466,6 +479,13 @@ body {
 }
 
 @media (max-width: 600px) {
+  .headland,
+  .headabout,
+  .headourpartner,
+  .headteam,
+  .headhelpus {
+    height: 35rem;
+  }
   .headertext h1 {
     font-size: 3rem;
     width: 100%;
@@ -474,21 +494,32 @@ body {
     display: -ms-flexbox;
     display: flex;
     position: relative;
-    top: 53rem;
+    top: 29rem;
     left: 0rem;
   }
 }
 
-@media (max-width: 384px) {
-  .headertext h1 {
-    font-size: 2.5rem;
-    top: 53rem;
+@media (max-width: 414px) {
+  .headland,
+  .headabout,
+  .headourpartner,
+  .headteam,
+  .headhelpus {
+    height: 35rem;
   }
 }
 
 @media (max-width: 384px) {
+  .headland,
+  .headabout,
+  .headourpartner,
+  .headteam,
+  .headhelpus {
+    height: 24rem;
+  }
   .headertext h1 {
-    top: 55rem;
+    font-size: 2rem;
+    top: 21rem;
   }
 }
 
@@ -1170,9 +1201,23 @@ body {
 
 /* Landscape phone to portrait tablet - below 768 */
 @media (max-width: 600px) {
+  .ourstrategy {
+    margin: 0.5rem;
+    padding: 0rem;
+  }
+  .ourstrategy .flex-container {
+    display: block;
+    margin: auto;
+  }
   .ourstrategy .container {
-    width: calc((80%/1) - 2%);
+    width: calc((100%/1) - 2%);
     margin-bottom: 2rem;
+  }
+  .ourstrategy h2 {
+    padding: 3rem;
+  }
+  .ourstrategy .container p {
+    padding: 0.5rem;
   }
   .ourphilosophy {
     padding: 0rem;
@@ -1282,8 +1327,14 @@ body {
   .gallery .container p {
     font-size: 2.5rem;
   }
+  .allforms .wrapper {
+    padding: 0rem;
+    margin: 0rem;
+    padding-left: 2rem;
+  }
   .allforms input {
     border-radius: 0rem;
+    width: 114%;
   }
   .allforms .dropdowns select {
     width: 70%;
@@ -1321,6 +1372,9 @@ body {
   .secondtestimonial .words {
     text-align: center;
     width: 100%;
+  }
+  .allforms input {
+    width: 120%;
   }
 }
 
