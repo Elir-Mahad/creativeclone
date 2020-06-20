@@ -6,7 +6,7 @@ View live site at: https://elir-mahad.github.io/creativeclone/
 
 # Made with
 
-HTML5,
-CSS3,
-SASS,
-VS Code
+    HTML5,
+    CSS3,
+    SASS,
+    VS Code
