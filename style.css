@@ -1197,13 +1197,16 @@ body {
 
 /* Landscape phone to portrait tablet - below 768 */
 @media (max-width: 600px) {
-  .ourstrategy {
+  
+   .ourstrategy {
     margin: 0.5rem;
     padding: 0rem;
   }
   .ourstrategy .flex-container {
     display: block;
     margin: auto;
+    margin-right:5rem;
+    margin-left:5rem;
   }
   .ourstrategy .container {
     width: calc((100%/1) - 2%);
@@ -1213,8 +1216,11 @@ body {
     padding: 3rem;
   }
   .ourstrategy .container p {
-    padding: 0.5rem;
+    font-size:2.3rem;
+    padding-bottom:3rem;
+    margin-top:-1rem;
   }
+  
   .ourphilosophy {
     padding: 0rem;
     padding-bottom: 4rem;
@@ -1343,6 +1349,11 @@ body {
 }
 
 @media (max-width: 414px) {
+  
+  .ourstrategy .flex-container {
+    margin-right:2rem;
+    margin-left:2rem;
+  }
   .accomplishments h2 {
     font-size: 4rem;
     margin: -3rem;
@@ -1380,6 +1391,18 @@ body {
 }
 
 @media (max-width: 384px) {
+  
+  
+  .ourstrategy .flex-container {
+    margin-right:1rem;
+    margin-left:1rem;
+  }
+  
+  .ourstrategy .container p {
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  
   .accomplishments h2 {
     font-size: 3.5rem;
   }
