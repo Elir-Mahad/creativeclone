@@ -516,11 +516,11 @@ body {
 		height: 35rem;
 	}
 	.headertext h1 {
-		border-radius: 0rem;
-		padding-top: 0.5rem;
 		font-size: 3rem;
 		width: 100%;
 		padding: 0rem;
+		border-radius: 0rem;
+		padding-top: 0.5rem;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
